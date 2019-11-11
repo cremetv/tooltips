@@ -1,3 +1,9 @@
+/*! @license
+ * Tooltips
+ * simple js&css tooltips
+ * copyright Marcel Hauser (https://ice-creme.de/)
+*/
+
 /* create tooltip element */
 const tooltipEl = document.createElement('div');
 tooltipEl.classList.add('tooltip');
