@@ -10,14 +10,14 @@ document.body.appendChild(tooltipEl);
 const showTooltip = el => {
 	if (!el) return;
 
-  let tooltipText = el.getAttribute('data-tooltip');
-  let tooltipPos = el.getAttribute('data-tooltip-position') || 'bottom';
+	let tooltipText = el.getAttribute('data-tooltip');
+	let tooltipPos = el.getAttribute('data-tooltip-position') || 'bottom';
 
-  let posX, posY;
+	let posX, posY;
 
 	tooltipEl.classList.remove('tooltip--top', 'tooltip--bottom', 'tooltip--right', 'tooltip--left');
-  tooltipEl.innerHTML = tooltipText;
-  tooltipEl.classList.add(`tooltip--${tooltipPos}`);
+	tooltipEl.innerHTML = tooltipText;
+	tooltipEl.classList.add(`tooltip--${tooltipPos}`);
 
 	tooltipEl.style.display = 'block';
 
