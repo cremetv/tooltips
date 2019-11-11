@@ -7,5 +7,6 @@ Use the tooltips with html Attributes
 ```
 
 |       Attribute       | Default  |                         Description                         |
+|-----------------------|----------|-------------------------------------------------------------|
 | data-tooltip          |          | initializing the tooltip & setting the tooltip text         |
 | data-tooltip-position | `bottom` | define the position of the tooltip. [top|right|bottom|left] |
