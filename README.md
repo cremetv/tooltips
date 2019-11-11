@@ -2,7 +2,7 @@
 JS script for tooltips
 
 Use the tooltips with html Attributes
-```
+```HTML
 <div data-tooltip="Tooltip text" data-tooltip-position="right"></div>
 ```
 
